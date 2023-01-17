@@ -1,0 +1,5 @@
+2023-01-15 12:01:52,775 - Dataset: NEU - Running time: 0:34:12 - Test: R2_score : 0.933333  -Client_number :  5 -Client_rate : 1.000000 -Communicate Round :  5 -Client_epoch : 30 -distribution mode :  0 -distribution mode : pgd
+2023-01-15 13:17:02,856 - Dataset: NEU - Running time: 1:08:51 - Test: R2_score : 0.947222  -Client_number :  5 -Client_rate : 1.000000 -Communicate Round : 10 -Client_epoch : 30 -distribution mode :  0 -distribution mode : pgd
+2023-01-15 14:07:18,545 - Dataset: NEU - Running time: 0:02:15 - Test: R2_score : 0.861111  -Client_number :  5 -Client_rate : 1.000000 -Communicate Round :  1 -Client_epoch :  5 -distribution mode :  1 -distribution mode : pgd
+2023-01-15 14:12:56,647 - Dataset: NEU - Running time: 0:02:24 - Test: R2_score : 0.802778  -Client_number :  5 -Client_rate : 1.000000 -Communicate Round :  1 -Client_epoch :  5 -distribution mode :  1 -distribution mode : pgd
+2023-01-15 14:53:42,022 - Dataset: NEU - Running time: 0:39:38 - Test: R2_score : 0.952778  -Client_number : 10 -Client_rate : 1.000000 -Communicate Round :  5 -Client_epoch : 10 -distribution mode :  1 -distribution mode : pgd
