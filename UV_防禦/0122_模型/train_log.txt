@@ -1,0 +1,1 @@
+[20230122 221436] - Namespace(batch_size=1280, epochs=500, attack='fgsm', epsilon=0.1, alpha=0.375, attack_iters=40, lr_max=0.1, lr_type='cyclic', modelPath='fgsm_defense_2.pt')
