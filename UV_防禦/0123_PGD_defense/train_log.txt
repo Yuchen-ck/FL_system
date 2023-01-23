@@ -1,0 +1,2 @@
+[20230123 002823] - Namespace(batch_size=1280, epochs=750, attack='pgd', epsilon=0.3, alpha=0.375, attack_iters=40, lr_max=0.1, lr_type='cyclic', modelPath='pgd_defense.pt')
+[20230123 002824] - Epoch 	 Time 	 LR 	 	 Train Loss 	 Train R2_score
