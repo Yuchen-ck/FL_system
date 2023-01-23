@@ -1,0 +1,263 @@
+[2023/01/22 20:19:40 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, data_dir='./mnist-data', fname=None, attack='fgsm', epsilon=0.1, attack_iters=10, alpha=0.01, restarts=10, seed=0)
+[2023/01/22 20:19:48 evaluate_uv.py __main__ INFO] - Test Loss: 87655668.1030, Acc: 0.8932
+[2023/01/22 20:20:05 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, data_dir='./mnist-data', fname=None, attack='fgsm', epsilon=0.2, attack_iters=10, alpha=0.01, restarts=10, seed=0)
+[2023/01/22 20:20:14 evaluate_uv.py __main__ INFO] - Test Loss: 348685485.8011, Acc: 0.6478
+[2023/01/22 20:25:56 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, data_dir='./mnist-data', fname=None, attack='fgsm', epsilon=0.3, attack_iters=10, alpha=0.01, restarts=10, seed=0)
+[2023/01/22 20:26:08 evaluate_uv.py __main__ INFO] - Test Loss: 744424119.9448, Acc: 0.4578
+[2023/01/22 20:26:22 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, data_dir='./mnist-data', fname=None, attack='fgsm', epsilon=0.4, attack_iters=10, alpha=0.01, restarts=10, seed=0)
+[2023/01/22 20:26:34 evaluate_uv.py __main__ INFO] - Test Loss: 1276218661.1858, Acc: 0.3172
+[2023/01/22 20:26:56 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, data_dir='./mnist-data', fname=None, attack='fgsm', epsilon=0.5, attack_iters=10, alpha=0.01, restarts=10, seed=0)
+[2023/01/22 20:27:08 evaluate_uv.py __main__ INFO] - Test Loss: 2035087325.7324, Acc: 0.2192
+
+
+
+[2023/01/22 21:19:04 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', alpha=0.1, epsilon=0.375, attack_iters=10, restarts=3)
+[2023/01/22 21:19:18 evaluate_uv.py __main__ INFO] - Test Loss: 379261752.4778, Acc: 0.3615
+[2023/01/22 21:19:43 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', alpha=0.3, epsilon=0.375, attack_iters=10, restarts=3)
+[2023/01/22 21:19:55 evaluate_uv.py __main__ INFO] - Test Loss: 379438908.7490, Acc: 0.3505
+[2023/01/22 21:20:14 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', alpha=0.5, epsilon=0.375, attack_iters=10, restarts=3)
+[2023/01/22 21:20:27 evaluate_uv.py __main__ INFO] - Test Loss: 386798396.4333, Acc: 0.3070
+[2023/01/22 21:21:10 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', alpha=0.1, epsilon=0.375, attack_iters=40, restarts=3)
+[2023/01/22 21:21:21 evaluate_uv.py __main__ INFO] - Test Loss: 382456701.2866, Acc: 0.2989
+[2023/01/22 21:22:22 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', alpha=0.5, epsilon=0.375, attack_iters=40, restarts=3)
+[2023/01/22 21:22:35 evaluate_uv.py __main__ INFO] - Test Loss: 382110917.1538, Acc: 0.2596
+[2023/01/22 21:23:58 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', alpha=0.1, epsilon=0.375, attack_iters=100, restarts=3)
+[2023/01/22 21:24:10 evaluate_uv.py __main__ INFO] - Test Loss: 382484073.9855, Acc: 0.3377
+[2023/01/22 21:24:45 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', alpha=0.5, epsilon=0.375, attack_iters=100, restarts=3)
+[2023/01/22 21:24:58 evaluate_uv.py __main__ INFO] - Test Loss: 380662238.5009, Acc: 0.3495
+[2023/01/22 22:05:53 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', alpha=0.5, epsilon=0.1, attack_iters=100, restarts=3)
+[2023/01/22 22:05:59 evaluate_uv.py __main__ INFO] - Test Loss: 659223912.1959, Acc: 0.1474
+[2023/01/22 22:06:13 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', alpha=0.5, epsilon=0.1, attack_iters=100, restarts=3)
+[2023/01/22 22:06:18 evaluate_uv.py __main__ INFO] - Test Loss: 254904049.3265, Acc: 0.6678
+[2023/01/22 22:06:52 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', alpha=0.5, epsilon=0.1, attack_iters=100, restarts=3)
+[2023/01/22 22:07:28 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', alpha=0.5, epsilon=0.1, attack_iters=100, restarts=3)
+[2023/01/22 22:07:33 evaluate_uv.py __main__ INFO] - Test Loss: 1465591.1150, Acc: 0.9981
+[2023/01/22 22:07:55 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', alpha=0.1, epsilon=0.1, attack_iters=100, restarts=3)
+[2023/01/22 22:08:01 evaluate_uv.py __main__ INFO] - Test Loss: 269522016.7154, Acc: 0.6612
+[2023/01/22 22:08:37 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.1, alpha=0.5, attack_iters=100, restarts=3)
+[2023/01/22 22:08:42 evaluate_uv.py __main__ INFO] - Test Loss: 265371103.1230, Acc: 0.6639
+[2023/01/22 22:09:10 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.1, alpha=0.4, attack_iters=100, restarts=3)
+[2023/01/22 22:09:16 evaluate_uv.py __main__ INFO] - Test Loss: 266391189.5172, Acc: 0.6563
+[2023/01/22 22:09:27 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:09:32 evaluate_uv.py __main__ INFO] - Test Loss: 3219920703.5496, Acc: 0.2865
+[2023/01/22 22:09:54 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:10:05 evaluate_uv.py __main__ INFO] - Test Loss: 1274289482.7055, Acc: 0.4610
+[2023/01/22 22:10:20 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.1, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:10:30 evaluate_uv.py __main__ INFO] - Test Loss: 979664443.2548, Acc: 0.5035
+[2023/01/22 22:11:03 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.6, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:11:14 evaluate_uv.py __main__ INFO] - Test Loss: 2594684028.2424, Acc: 0.3013
+[2023/01/22 22:11:25 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.35, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:11:36 evaluate_uv.py __main__ INFO] - Test Loss: 493535596.6446, Acc: 0.6473
+[2023/01/22 22:11:45 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.1, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:11:56 evaluate_uv.py __main__ INFO] - Test Loss: 1054447602.0309, Acc: 0.5001
+[2023/01/22 22:13:16 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.1, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:13:26 evaluate_uv.py __main__ INFO] - Test Loss: 981490950.5276, Acc: 0.5000
+[2023/01/22 22:27:46 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.05, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:27:59 evaluate_uv.py __main__ INFO] - Test Loss: 2167801.0136, Acc: 0.9972
+[2023/01/22 22:28:15 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.1, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:28:20 evaluate_uv.py __main__ INFO] - Test Loss: 3475584.9017, Acc: 0.9956
+[2023/01/22 22:28:45 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:28:50 evaluate_uv.py __main__ INFO] - Test Loss: 405415828.8454, Acc: 0.5886
+[2023/01/22 22:29:12 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', epsilon=0.5, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:29:17 evaluate_uv.py __main__ INFO] - Test Loss: 1277812.7574, Acc: 0.9984
+[2023/01/22 22:29:57 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', epsilon=0.2, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:30:09 evaluate_uv.py __main__ INFO] - Test Loss: 1277812.7574, Acc: 0.9984
+[2023/01/22 22:30:24 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.2, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:30:34 evaluate_uv.py __main__ INFO] - Test Loss: 41222156.6636, Acc: 0.9449
+[2023/01/22 22:30:56 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.3, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:31:06 evaluate_uv.py __main__ INFO] - Test Loss: 172487955.7703, Acc: 0.7854
+[2023/01/22 22:31:31 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.4, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:31:42 evaluate_uv.py __main__ INFO] - Test Loss: 346819587.1016, Acc: 0.6256
+[2023/01/22 22:32:15 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.0, attack_iters=100, restarts=3)
+[2023/01/22 22:32:26 evaluate_uv.py __main__ INFO] - Test Loss: 407040821.3126, Acc: 0.5872
+[2023/01/22 22:33:00 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.375, alpha=0.1, attack_iters=100, restarts=3)
+[2023/01/22 22:33:14 evaluate_uv.py __main__ INFO] - Test Loss: 472945831.4411, Acc: 0.4093
+[2023/01/22 22:33:31 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.375, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/22 22:33:36 evaluate_uv.py __main__ INFO] - Test Loss: 482343923.8675, Acc: 0.3977
+[2023/01/22 22:34:17 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.375, alpha=0.5, attack_iters=10, restarts=3)
+[2023/01/22 22:34:23 evaluate_uv.py __main__ INFO] - Test Loss: 484815702.4497, Acc: 0.2611
+[2023/01/22 22:35:46 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.375, alpha=0.1, attack_iters=40, restarts=3)
+[2023/01/22 22:35:51 evaluate_uv.py __main__ INFO] - Test Loss: 478821426.1300, Acc: 0.3662
+[2023/01/22 22:36:14 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.375, alpha=0.5, attack_iters=40, restarts=3)
+[2023/01/22 22:36:20 evaluate_uv.py __main__ INFO] - Test Loss: 472967110.8987, Acc: 0.4027
+[2023/01/22 22:37:58 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.375, alpha=0.5, attack_iters=40, restarts=3)
+[2023/01/22 22:38:04 evaluate_uv.py __main__ INFO] - Test Loss: 252304507.1233, Acc: 0.6840
+[2023/01/22 22:39:13 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.375, alpha=0.5, attack_iters=40, restarts=3)
+[2023/01/22 22:39:42 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.375, alpha=0.5, attack_iters=40, restarts=3)
+[2023/01/22 22:39:48 evaluate_uv.py __main__ INFO] - Test Loss: 249101307.1257, Acc: 0.6852
+[2023/01/22 22:52:17 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', epsilon=0.375, alpha=0.5, attack_iters=40, restarts=3)
+[2023/01/22 22:52:23 evaluate_uv.py __main__ INFO] - Test Loss: 10047230.4458, Acc: 0.9881
+[2023/01/22 22:53:08 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.1, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 22:53:13 evaluate_uv.py __main__ INFO] - Test Loss: 51674377.3935, Acc: 0.9440
+[2023/01/22 22:54:00 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.2, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 22:54:05 evaluate_uv.py __main__ INFO] - Test Loss: 185415189.5243, Acc: 0.8264
+[2023/01/22 22:54:47 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.3, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 22:54:52 evaluate_uv.py __main__ INFO] - Test Loss: 435220364.7138, Acc: 0.6604
+[2023/01/22 22:55:10 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 22:55:15 evaluate_uv.py __main__ INFO] - Test Loss: 1211675661.7378, Acc: -23.9757
+[2023/01/22 22:55:41 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 22:55:46 evaluate_uv.py __main__ INFO] - Test Loss: 1260032747.0521, Acc: -23.9877
+[2023/01/22 23:08:47 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 23:08:52 evaluate_uv.py __main__ INFO] - Test Loss: 667963143.6624, Acc: 0.3847
+[2023/01/22 23:09:18 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.1, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 23:09:23 evaluate_uv.py __main__ INFO] - Test Loss: 4946657.4045, Acc: 0.9937
+[2023/01/22 23:19:34 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.1, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 23:19:40 evaluate_uv.py __main__ INFO] - Test Loss: 58619032.3535, Acc: 0.9473
+[2023/01/22 23:20:01 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 23:20:07 evaluate_uv.py __main__ INFO] - Test Loss: 12791018.2403, Acc: 0.9849
+[2023/01/22 23:20:30 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 23:20:36 evaluate_uv.py __main__ INFO] - Test Loss: 15233805.5840, Acc: 0.9803
+[2023/01/22 23:20:53 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 23:20:59 evaluate_uv.py __main__ INFO] - Test Loss: 800017286.4124, Acc: 0.1406
+[2023/01/22 23:22:11 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/22 23:22:17 evaluate_uv.py __main__ INFO] - Test Loss: 413401697.1839, Acc: -37.5173
+[2023/01/23 00:14:34 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.2, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:14:40 evaluate_uv.py __main__ INFO] - Test Loss: 5002022.4371, Acc: 0.9937
+[2023/01/23 00:14:56 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.2, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:15:02 evaluate_uv.py __main__ INFO] - Test Loss: 20315147.2571, Acc: 0.9719
+[2023/01/23 00:15:18 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:15:23 evaluate_uv.py __main__ INFO] - Test Loss: 625356979.3288, Acc: 0.3272
+[2023/01/23 00:15:49 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:15:55 evaluate_uv.py __main__ INFO] - Test Loss: 562697111.9984, Acc: -11.2194
+[2023/01/23 00:16:11 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.15, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:16:19 evaluate_uv.py __main__ INFO] - Test Loss: 3854565.0098, Acc: 0.9950
+[2023/01/23 00:16:34 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.25, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:16:40 evaluate_uv.py __main__ INFO] - Test Loss: 30293010.1212, Acc: 0.9501
+[2023/01/23 00:16:47 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.25, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:16:55 evaluate_uv.py __main__ INFO] - Test Loss: 23897147.1278, Acc: 0.9684
+[2023/01/23 00:17:01 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:17:07 evaluate_uv.py __main__ INFO] - Test Loss: 148345147.1250, Acc: 0.8134
+[2023/01/23 00:49:01 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:49:09 evaluate_uv.py __main__ INFO] - Test Loss: 91577781.4850, Acc: 0.8797
+[2023/01/23 00:49:28 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.4, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:49:37 evaluate_uv.py __main__ INFO] - Test Loss: 356925820.7754, Acc: 0.5909
+[2023/01/23 00:55:13 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:55:22 evaluate_uv.py __main__ INFO] - Test Loss: 86552706.2694, Acc: 0.8833
+[2023/01/23 00:55:41 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.2, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:55:50 evaluate_uv.py __main__ INFO] - Test Loss: 13503538.2109, Acc: 0.9803
+[2023/01/23 00:56:03 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.25, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 00:56:12 evaluate_uv.py __main__ INFO] - Test Loss: 46531259.1590, Acc: 0.9392
+[2023/01/23 01:00:15 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.375, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 01:00:28 evaluate_uv.py __main__ INFO] - Test Loss: 291660140.8639, Acc: 0.6505
+[2023/01/23 01:01:34 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.01, attack_iters=40, restarts=3)
+[2023/01/23 01:01:52 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.01, attack_iters=40, restarts=3)
+[2023/01/23 01:02:05 evaluate_uv.py __main__ INFO] - Test Loss: 12024028.2079, Acc: 0.9835
+[2023/01/23 01:02:38 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.2, alpha=0.01, attack_iters=40, restarts=3)
+[2023/01/23 01:02:51 evaluate_uv.py __main__ INFO] - Test Loss: 51965647.9141, Acc: 0.9216
+[2023/01/23 01:03:10 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 01:03:24 evaluate_uv.py __main__ INFO] - Test Loss: 126239890.3901, Acc: 0.8099
+[2023/01/23 01:03:39 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.4, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 01:03:52 evaluate_uv.py __main__ INFO] - Test Loss: 225054083.6542, Acc: 0.6760
+[2023/01/23 01:04:09 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 01:04:22 evaluate_uv.py __main__ INFO] - Test Loss: 370888049.9639, Acc: 0.5289
+[2023/01/23 01:05:16 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 01:05:28 evaluate_uv.py __main__ INFO] - Test Loss: 519940456.7226, Acc: 0.4531
+[2023/01/23 01:05:48 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 01:06:01 evaluate_uv.py __main__ INFO] - Test Loss: 84470959.3544, Acc: 0.8822
+[2023/01/23 01:06:21 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.4, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 01:06:33 evaluate_uv.py __main__ INFO] - Test Loss: 340320284.5933, Acc: 0.6051
+[2023/01/23 01:06:49 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.2, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 01:07:02 evaluate_uv.py __main__ INFO] - Test Loss: 11118118.5071, Acc: 0.9864
+[2023/01/23 12:38:21 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 12:38:27 evaluate_uv.py __main__ INFO] - Test Loss: 210375220.0883, Acc: 0.2340
+[2023/01/23 12:38:42 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 12:38:48 evaluate_uv.py __main__ INFO] - Test Loss: 13114314.9770, Acc: 0.9804
+[2023/01/23 12:38:57 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', epsilon=0.3, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 12:39:03 evaluate_uv.py __main__ INFO] - Test Loss: 10758631.1953, Acc: 0.9844
+[2023/01/23 12:39:20 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 12:39:26 evaluate_uv.py __main__ INFO] - Test Loss: 193221305.7316, Acc: 0.3383
+[2023/01/23 12:39:40 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.2, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 12:39:46 evaluate_uv.py __main__ INFO] - Test Loss: 182721880.5562, Acc: 0.4991
+[2023/01/23 12:41:50 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 12:41:56 evaluate_uv.py __main__ INFO] - Test Loss: 497865023.6288, Acc: 0.4538
+[2023/01/23 12:42:38 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 12:42:44 evaluate_uv.py __main__ INFO] - Test Loss: 675050782.6870, Acc: 0.3197
+[2023/01/23 12:43:27 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.1, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 12:43:33 evaluate_uv.py __main__ INFO] - Test Loss: 16118090.9345, Acc: 0.9790
+[2023/01/23 12:43:55 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.3, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 12:44:01 evaluate_uv.py __main__ INFO] - Test Loss: 210738179.1475, Acc: 0.3272
+[2023/01/23 12:44:18 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.2, alpha=0.0, attack_iters=40, restarts=3)
+[2023/01/23 12:44:25 evaluate_uv.py __main__ INFO] - Test Loss: 106183712.0309, Acc: 0.8396
+[2023/01/23 12:45:15 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', epsilon=0.2, alpha=0.0, attack_iters=40, restarts=10)
+[2023/01/23 12:45:20 evaluate_uv.py __main__ INFO] - Test Loss: 5691464.2364, Acc: 0.9925
+[2023/01/23 12:45:57 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.375, alpha=0.1, attack_iters=10, restarts=10)
+[2023/01/23 12:46:05 evaluate_uv.py __main__ INFO] - Test Loss: 328255371.5854, Acc: -11.1620
+[2023/01/23 12:46:27 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.1, attack_iters=10, restarts=10)
+[2023/01/23 12:46:35 evaluate_uv.py __main__ INFO] - Test Loss: 95903813.5135, Acc: 0.8596
+[2023/01/23 12:47:02 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=10)
+[2023/01/23 12:47:10 evaluate_uv.py __main__ INFO] - Test Loss: 545131830.8230, Acc: -9.9186
+[2023/01/23 12:47:21 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.1, attack_iters=10, restarts=10)
+[2023/01/23 12:47:29 evaluate_uv.py __main__ INFO] - Test Loss: 6547726.4009, Acc: 0.9914
+[2023/01/23 12:48:16 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.1, attack_iters=10, restarts=10)
+[2023/01/23 12:48:23 evaluate_uv.py __main__ INFO] - Test Loss: 138077144.3928, Acc: 0.7892
+[2023/01/23 12:49:06 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.1, attack_iters=10, restarts=10)
+[2023/01/23 12:49:14 evaluate_uv.py __main__ INFO] - Test Loss: 14620272.4678, Acc: 0.9795
+[2023/01/23 12:50:18 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.1, attack_iters=40, restarts=10)
+[2023/01/23 12:50:25 evaluate_uv.py __main__ INFO] - Test Loss: 13951843.8272, Acc: 0.9806
+[2023/01/23 12:51:00 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.5, attack_iters=40, restarts=10)
+[2023/01/23 12:51:08 evaluate_uv.py __main__ INFO] - Test Loss: 14758420.0144, Acc: 0.9782
+[2023/01/23 12:51:40 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.5, attack_iters=40, restarts=3)
+[2023/01/23 12:51:46 evaluate_uv.py __main__ INFO] - Test Loss: 12479966.7494, Acc: 0.9828
+[2023/01/23 12:52:08 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.2, alpha=0.1, attack_iters=40, restarts=3)
+[2023/01/23 12:52:15 evaluate_uv.py __main__ INFO] - Test Loss: 52468670.9337, Acc: 0.9227
+[2023/01/23 12:52:33 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.1, attack_iters=40, restarts=3)
+[2023/01/23 12:52:39 evaluate_uv.py __main__ INFO] - Test Loss: 124490771.9831, Acc: 0.8142
+[2023/01/23 12:55:59 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.4, alpha=0.1, attack_iters=40, restarts=3)
+[2023/01/23 12:56:05 evaluate_uv.py __main__ INFO] - Test Loss: 223086603.7172, Acc: 0.6823
+[2023/01/23 12:56:14 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.1, attack_iters=40, restarts=3)
+[2023/01/23 12:56:21 evaluate_uv.py __main__ INFO] - Test Loss: 380079905.2542, Acc: 0.5154
+[2023/01/23 12:57:52 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 12:57:59 evaluate_uv.py __main__ INFO] - Test Loss: 12449270.2133, Acc: 0.9828
+[2023/01/23 12:58:56 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.2, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 12:59:02 evaluate_uv.py __main__ INFO] - Test Loss: 50888195.8223, Acc: 0.9257
+[2023/01/23 12:59:19 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 12:59:27 evaluate_uv.py __main__ INFO] - Test Loss: 123846500.0151, Acc: 0.8149
+[2023/01/23 13:00:18 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.4, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:00:25 evaluate_uv.py __main__ INFO] - Test Loss: 225868502.7222, Acc: 0.6779
+[2023/01/23 13:00:45 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:00:51 evaluate_uv.py __main__ INFO] - Test Loss: 374581755.2622, Acc: 0.5252
+[2023/01/23 13:01:23 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:01:30 evaluate_uv.py __main__ INFO] - Test Loss: 716299117.4156, Acc: -2.1558
+[2023/01/23 13:02:55 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:03:01 evaluate_uv.py __main__ INFO] - Test Loss: 23680066.4713, Acc: 0.9645
+[2023/01/23 13:03:32 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.2, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:03:39 evaluate_uv.py __main__ INFO] - Test Loss: 99286132.8397, Acc: 0.8263
+[2023/01/23 13:04:03 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:04:10 evaluate_uv.py __main__ INFO] - Test Loss: 238702715.6504, Acc: 0.5162
+[2023/01/23 13:04:30 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.4, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:04:36 evaluate_uv.py __main__ INFO] - Test Loss: 436340748.7767, Acc: 0.2900
+[2023/01/23 13:05:10 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.4, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:05:17 evaluate_uv.py __main__ INFO] - Test Loss: 631727272.2445, Acc: 0.2879
+[2023/01/23 13:05:27 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.3, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:05:34 evaluate_uv.py __main__ INFO] - Test Loss: 147619572.7016, Acc: 0.7663
+[2023/01/23 13:06:58 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.2, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:07:05 evaluate_uv.py __main__ INFO] - Test Loss: 19023895.1586, Acc: 0.9745
+[2023/01/23 13:07:30 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:07:37 evaluate_uv.py __main__ INFO] - Test Loss: 6952734.5424, Acc: 0.9909
+[2023/01/23 13:09:02 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.1, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:09:08 evaluate_uv.py __main__ INFO] - Test Loss: 6955328.9795, Acc: 0.9908
+[2023/01/23 13:09:22 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='pgd', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:09:29 evaluate_uv.py __main__ INFO] - Test Loss: 950451649.1733, Acc: 0.0852
+[2023/01/23 13:10:41 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:10:47 evaluate_uv.py __main__ INFO] - Test Loss: 5691464.2364, Acc: 0.9925
+[2023/01/23 13:13:13 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:13:22 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:13:28 evaluate_uv.py __main__ INFO] - Test Loss: 5691464.2364, Acc: 0.9925
+[2023/01/23 13:15:31 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.1, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:15:37 evaluate_uv.py __main__ INFO] - Test Loss: 15982832.2017, Acc: 0.9792
+[2023/01/23 13:16:08 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.3, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:16:14 evaluate_uv.py __main__ INFO] - Test Loss: 204785519.7024, Acc: 0.6910
+[2023/01/23 13:16:41 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.4, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:16:47 evaluate_uv.py __main__ INFO] - Test Loss: 627370901.7975, Acc: 0.3262
+[2023/01/23 13:17:02 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.4, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:17:08 evaluate_uv.py __main__ INFO] - Test Loss: 624190932.0355, Acc: 0.3433
+[2023/01/23 13:17:20 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:17:25 evaluate_uv.py __main__ INFO] - Test Loss: 673334349.6908, Acc: -15.5255
+[2023/01/23 13:17:53 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 13:17:59 evaluate_uv.py __main__ INFO] - Test Loss: 668625739.7581, Acc: -15.5301
+[2023/01/23 14:21:07 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='fgsm', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 14:21:13 evaluate_uv.py __main__ INFO] - Test Loss: 42950411714283.3828, Acc: -0.0141
+[2023/01/23 14:21:30 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 14:21:35 evaluate_uv.py __main__ INFO] - Test Loss: 14028939.1701, Acc: 0.9818
+[2023/01/23 14:21:58 evaluate_uv.py __main__ INFO] - Namespace(batch_size=450, attack='none', epsilon=0.5, alpha=0.1, attack_iters=10, restarts=3)
+[2023/01/23 14:22:03 evaluate_uv.py __main__ INFO] - Test Loss: 13666601.6403, Acc: 0.9798

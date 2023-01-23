@@ -1,0 +1,37 @@
+
+
+
+
+[2023/01/19 21:51:53 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='fgsm', epsilon=0.3, attack_iters=100, alpha=0.01, restarts=10, seed=0)
+[2023/01/19 21:51:59 evaluate_mnist.py __main__ INFO] - Test Loss: 11.3263, Acc: 0.1012
+[2023/01/19 21:57:42 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='pgd', epsilon=0.3, attack_iters=10, alpha=0.01, restarts=10, seed=0)
+[2023/01/19 21:58:13 evaluate_mnist.py __main__ INFO] - Test Loss: 1.5429, Acc: 0.0819
+[2023/01/19 21:59:30 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='pgd', epsilon=0.3, attack_iters=10, alpha=0.01, restarts=40, seed=0)
+[2023/01/19 22:01:26 evaluate_mnist.py __main__ INFO] - Test Loss: 1.7344, Acc: 0.0557
+[2023/01/19 22:05:04 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='none', epsilon=0.3, attack_iters=10, alpha=0.01, restarts=40, seed=0)
+[2023/01/19 22:05:08 evaluate_mnist.py __main__ INFO] - Test Loss: 0.0249, Acc: 0.9935
+[2023/01/19 22:05:40 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='pgd', epsilon=0.3, attack_iters=10, alpha=0.01, restarts=100, seed=0)
+[2023/01/19 22:10:19 evaluate_mnist.py __main__ INFO] - Test Loss: 1.8354, Acc: 0.0418
+
+[2023/01/19 23:17:28 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='none', epsilon=0.3, attack_iters=10, alpha=0.01, restarts=100, seed=0)
+[2023/01/19 23:17:33 evaluate_mnist.py __main__ INFO] - Test Loss: 0.0412, Acc: 0.9858
+[2023/01/19 23:30:33 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='fgsm', epsilon=0.3, attack_iters=10, alpha=0.01, restarts=100, seed=0)
+[2023/01/19 23:30:38 evaluate_mnist.py __main__ INFO] - Test Loss: 0.1214, Acc: 0.9616
+[2023/01/19 23:32:50 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='pgd', epsilon=0.3, attack_iters=10, alpha=0.01, restarts=10, seed=0)
+[2023/01/19 23:33:22 evaluate_mnist.py __main__ INFO] - Test Loss: 0.0979, Acc: 0.9558
+[2023/01/19 23:36:10 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='pgd', epsilon=0.3, attack_iters=40, alpha=0.01, restarts=10, seed=0)
+[2023/01/19 23:38:07 evaluate_mnist.py __main__ INFO] - Test Loss: 0.1431, Acc: 0.9162
+[2023/01/19 23:40:06 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='pgd', epsilon=0.3, attack_iters=100, alpha=0.01, restarts=10, seed=0)
+[2023/01/19 23:44:26 evaluate_mnist.py __main__ INFO] - Test Loss: 0.1579, Acc: 0.9035
+[2023/01/19 23:55:01 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='pgd', epsilon=0.3, attack_iters=100, alpha=0.01, restarts=40, seed=0)
+[2023/01/19 23:55:54 evaluate_mnist.py __main__ INFO] - Test Loss: 2.3309, Acc: 0.0000
+[2023/01/19 23:57:09 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='pgd', epsilon=0.3, attack_iters=40, alpha=0.01, restarts=10, seed=0)
+[2023/01/19 23:57:42 evaluate_mnist.py __main__ INFO] - Test Loss: 2.3225, Acc: 0.0000
+
+[2023/01/20 22:12:38 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='none', epsilon=0.3, attack_iters=40, alpha=0.01, restarts=10, seed=0)
+[2023/01/20 22:12:43 evaluate_mnist.py __main__ INFO] - Test Loss: 2.3046, Acc: 0.0969
+[2023/01/20 22:14:39 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='none', epsilon=0.3, attack_iters=40, alpha=0.01, restarts=10, seed=0)
+[2023/01/20 22:14:44 evaluate_mnist.py __main__ INFO] - Test Loss: 2.3074, Acc: 0.0522
+[2023/01/20 22:14:49 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='none', epsilon=0.3, attack_iters=40, alpha=0.01, restarts=10, seed=0)
+[2023/01/20 22:14:54 evaluate_mnist.py __main__ INFO] - Test Loss: 2.2976, Acc: 0.0815
+[2023/01/20 22:50:50 evaluate_mnist.py __main__ INFO] - Namespace(batch_size=100, data_dir='./mnist-data', fname=None, attack='none', epsilon=0.3, attack_iters=40, alpha=0.01, restarts=10, seed=0)
